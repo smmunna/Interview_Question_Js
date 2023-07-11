@@ -1,7 +1,3 @@
-const fruits = [100,25,12,33,45,4]
-
-fruits.sort((a,b)=>{
-    return a-b
-})
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.copyWithin(3, 4);
 console.log(fruits)
-console.log('Highest: '+ fruits[fruits.length-1] +'Lowest: '+fruits[0])

@@ -66,9 +66,44 @@ const arr17 = [3,5,8,9]
 
 // Q15: How do you find the sum or average of elements in an array?
 const arr18 = [3,5,8,9]
-console.log(
-    arr18.reduce((total,value)=>{
-        return value + total
-    })
-)
+// console.log(
+//     arr18.reduce((total,value)=>{
+//         return value + total
+//     })
+// )
+
+// Q16: How do you remove duplicate elements from an array?
+const arr19 = [1,1,2,2,3,4,4,4,5]
+const filter = arr19.filter((element,index)=> arr19.indexOf(element) === index)
+// console.log(filter)
+
+// Q17: How do you sort an array in descending order?
+const arr20 = [3,5,8,9]
+const decendingSort = arr20.sort(function(a,b){
+    return b-a
+})
+// console.log(decendingSort)
+
+// Q18: How do you convert an array to a string with comma-separated values?
+const arr21 = [3,5,8,9]
+// console.log(arr21.join(' * '))
+
+// Q19: How do you find the index of the first occurrence of a specific element in an array?
+const arr22 = [3,5,8,9]
+// console.log(arr22.indexOf(3))
+
+// Q20: How do you check if two arrays are equal?
+const arr23 = [3,5,8,9]
+const arr24 = [3,5,8,9]
+const equalArray = arr23.length === arr24.length && arr23.every((value,index)=> value === arr24[index])
+// console.log(equalArray)
+
+// Q21: How do you find the index of the last occurrence of a specific element in an array?
+const arr25 = [3,5,8,9]
+console.log(arr25.lastIndexOf(8))
+
+// Q22: How do you check if an array contains any truthy values?
+const arr26 = [0, '', false, null, 5];
+
+
 
