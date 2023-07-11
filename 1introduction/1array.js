@@ -100,10 +100,12 @@ const equalArray = arr23.length === arr24.length && arr23.every((value,index)=> 
 
 // Q21: How do you find the index of the last occurrence of a specific element in an array?
 const arr25 = [3,5,8,9]
-console.log(arr25.lastIndexOf(8))
+// console.log(arr25.lastIndexOf(8))
 
 // Q22: How do you check if an array contains any truthy values?
 const arr26 = [0, '', false, null, 5];
+const isTruthy = arr26.some((element)=> Boolean(element))
+console.log(isTruthy)
 
 
 
