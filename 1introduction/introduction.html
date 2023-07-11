@@ -1,0 +1,20 @@
+<html>
+    <body>
+        <h3 id="demo">Sm Munna</h3>
+        <hr>
+        <button onclick="document.getElementById('bulb').src='pic_bulbon.gif'">Turn On light</button>
+        <img src="pic_bulboff.gif" alt="bulb off" id="bulb">
+        <button onclick="document.getElementById('bulb').src='pic_bulboff.gif'">Turn off light</button>
+
+        <h3 id="demo1">Nothing found..</h3>
+        <button onclick="mywindow()">Give alert</button>
+
+        <!-- Script for changing the content -->
+        <script>
+            document.getElementById('demo').innerHTML="Bulb On & Off";
+            function mywindow(){
+                window.print()
+            }
+        </script>
+    </body>
+</html>
