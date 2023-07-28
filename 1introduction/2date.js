@@ -1,7 +1,8 @@
-
-x = 5;
-console.log(x)
-var x;
+"use strict"
+const name = "Munna";
+for (const iterator of name) {
+    console.log([iterator])
+}
 
 
 
